@@ -8,7 +8,7 @@
 -  Discord Username: 
 -  Other: 
 
-**Member 2 :**  
+**Member 2 :** Jayen Gulab
 - Victoria Email: gulabjaye@myvuw.ac.nz
 -  GitHub Username: Jayman874
 -  Discord Username: Jayman874#2360
