@@ -9,10 +9,10 @@
 -  Other: 
 
 **Member 2 :**  
-- Victoria Email: 
--  GitHub Username: 
--  Discord Username: 
--  Other: 
+- Victoria Email: gulabjaye@myvuw.ac.nz
+-  GitHub Username: Jayman874
+-  Discord Username: Jayman874#2360
+-  Other: jgulab874@gmail.com
 
 **Member 3 :**  
 - Victoria Email: 
