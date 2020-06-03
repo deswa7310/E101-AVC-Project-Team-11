@@ -6,7 +6,7 @@
 - Victoria Email: modishiv@mywuv.ac.nz
 -  GitHub Username: shivmodi
 -  Discord Username: Dave Microwave#8239
--  Other: shivmodi115@gmail.com
+-  Other: 
 
 **Member 2 :** Jayen Gulab
 - Victoria Email: gulabjaye@myvuw.ac.nz
@@ -14,11 +14,11 @@
 -  Discord Username: Jayman874#2360
 -  Other: jgulab874@gmail.com
 
-**Member 3 :**  
-- Victoria Email: 
--  GitHub Username: 
--  Discord Username: 
--  Other: 
+**Member 3 :** John Flynn
+- Victoria Email: flynnjohn@myvuw.ac.nz
+-  GitHub Username: deswa7310
+-  Discord Username: deswa7310#3250
+-  Other: johnhfflynn25@gmail.com
 
 **Member 4 :** Tristan Basinang
 - Victoria Email: basinatris@myvuw.ac.nz
@@ -32,10 +32,11 @@
 ## Roles
 (NOTE: these are not the final roles, please help me define what these are what they should do)
 
-Primary roles: The main “job” of the member Project Manager
--	Software Architect: description
--	Software writer: description
--	Filler: description
+Primary roles: (The main “job” of the member)
+- Project Manager: in charge of team planning and execution; plans meetings, ensures we meet deadlines, reports progress regularly.
+-	Software Architect: in charge of general design of program; writing the core code and planning how it should work.
+-	Software Writer: in charge of execution of the program; debugging, testing, and expanding the code, committing with each update.
+-	System Administrator: in charge of managing operations on GitHub; organises files, writes instructions on using program etc.
 
 Secondary roles: Components of what the member’s primary job is; does not have to relate to what their primary role is. Should not have more than two (unless you have other ideas)
 -	Writing code
@@ -46,62 +47,9 @@ Secondary roles: Components of what the member’s primary job is; does not have
 
 Backup roles: a role someone can carry out if another member is currently unavailable or help with a member currently struggling to perform. Can be primary or secondary
 
-<table>
-	<tr>
-    	<th>Team member</th>
-        <th>Primary Role</th>
-        <th>Secondary Roles</th>
-        <th>Backup Role</th>
-    </tr>
-    <tr>
-    	<td>Member 1</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-    	<td>Member 2</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-    	<td>Member 3</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-    	<td>Tristan Basinang</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
-## Important Dates
-
-<table>
-	<tr>
-    	<th>Date</th>
-        <th>Event</th>
-    </tr>
-    <tr>
-    	<td>June 4</td>
-        <td>AVC Plan with dated milestones (1.5%)</td>
-    </tr>
-    <tr>
-    	<td>June 12</td>
-        <td>Weekly Project progress discussion (1.5%)</td>
-    </tr>
-    <tr>
-    	<td>June 19</td>
-        <td>Weekly Project progress discussion (1.5%)</td>
-    </tr>
-    <tr>
-    	<td>June 23</td>
-        <td>Lab A: AVC Testing</td>
-    </tr>
-    
-</table>
-
+| Team member | Primary Role | Secondary Roles | Backup Role |
+| --- | --- | --- | --- |
+| Member 1 | ... | ... | ... |
+| Member 2 | ... | ... | ... |
+| Member 3 | ... | ... | ... |
+| Member 4 | ... | ... | ... |
