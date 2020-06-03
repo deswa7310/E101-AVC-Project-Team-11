@@ -48,5 +48,7 @@ Backup roles: a role someone can carry out if another member is currently unavai
 
 | Team member | Primary Role | Secondary Roles | Backup Role |
 | --- | --- | --- | --- |
-| Member 1 | ... | ...  
- 
+| Member 1 | ... | ... | ... |
+| Member 2 | ... | ... | ... |
+| Member 3 | ... | ... | ... |
+| Member 4 | ... | ... | ... |
