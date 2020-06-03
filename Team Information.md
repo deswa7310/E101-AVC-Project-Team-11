@@ -4,7 +4,7 @@
 
 **Member 1 :**  
 - Victoria Email: modishiv@mywuv.ac.nz
--  GitHub Username: shivmodi115
+-  GitHub Username: shivmodi
 -  Discord Username: Dave Microwave#8239
 -  Other: 
 
