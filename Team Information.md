@@ -99,7 +99,7 @@ Backup roles: a role someone can carry out if another member is currently unavai
         <td>Weekly Project progress discussion (1.5%)</td>
     </tr>
     <tr>
-    	<td>JUne 23</td>
+    	<td>June 23</td>
         <td>Lab A: AVC Testing</td>
     </tr>
     
