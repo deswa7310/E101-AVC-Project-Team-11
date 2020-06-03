@@ -14,11 +14,11 @@
 -  Discord Username: Jayman874#2360
 -  Other: jgulab874@gmail.com
 
-**Member 3 :**  
-- Victoria Email: 
--  GitHub Username: 
--  Discord Username: 
--  Other: 
+**Member 3 :** John Flynn
+- Victoria Email: flynnjohn@myvuw.ac.nz
+-  GitHub Username: deswa7310
+-  Discord Username: deswa7310#3250
+-  Other: johnhfflynn25@gmail.com
 
 **Member 4 :** Tristan Basinang
 - Victoria Email: basinatris@myvuw.ac.nz
