@@ -6,7 +6,7 @@
 - Victoria Email: modishiv@mywuv.ac.nz
 -  GitHub Username: shivmodi
 -  Discord Username: Dave Microwave#8239
--  Other: 
+-  Other: shivmodi115@gmail.com
 
 **Member 2 :** Jayen Gulab
 - Victoria Email: gulabjaye@myvuw.ac.nz
