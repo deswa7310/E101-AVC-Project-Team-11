@@ -3,9 +3,9 @@
 ## Team members and contact information
 
 **Member 1 :**  
-- Victoria Email: 
--  GitHub Username: 
--  Discord Username: 
+- Victoria Email: modishiv@mywuv.ac.nz
+-  GitHub Username: shivmodi115
+-  Discord Username: Dave Microwave#8239
 -  Other: 
 
 **Member 2 :** Jayen Gulab
