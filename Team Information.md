@@ -47,9 +47,69 @@ Secondary roles: Components of what the member’s primary job is; does not have
 
 Backup roles: a role someone can carry out if another member is currently unavailable or help with a member currently struggling to perform. Can be primary or secondary
 
-| Team member | Primary Role | Secondary Roles | Backup Role |
-| --- | --- | --- | --- |
-| Member 1 | ... | ... | ... |
-| Member 2 | ... | ... | ... |
-| Member 3 | ... | ... | ... |
-| Member 4 | ... | ... | ... |
+<table>
+	<tr>
+    	<th>Team member</th>
+        <th>Primary role</th>
+        <th>Secondary role</th>
+        <th>Backup role</th>
+    </tr>
+    <tr>
+    	<td>Shiv Modi</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+    	<td>Jayen Gulab</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+    	<td>John Flynn</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+    	<td>Tristan Basinang</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+</table>
+
+## Important Dates
+
+<table>
+	<tr>
+    	<th>Date</th>
+        <th>Event</th>
+    <tr/>
+    <tr>
+    	<td>June 4</td>
+        <td>Project plan with dated milestones (1.5%)</td>
+    </tr>
+    <tr>
+    	<td>June 12 (1.5%)</td>
+        <td>c</td>
+    </tr>
+    <tr>
+    	<td>June 19</td>
+        <td>Project plan with dated milestones (1.5%)</td>
+    </tr>
+    <tr>
+    	<td>June 19</td>
+        <td>AVC Code submission</td>
+    </tr>
+    <tr>
+    	<td>June 22-23</td>
+        <td>Lab A - AVC robot testing</td>
+    </tr>
+    <tr>
+    	<td>June 24</td>
+        <td>AVC Reports due</td>
+    </tr>
+</table>
+
