@@ -2,7 +2,7 @@
 
 ## Team members and contact information
 
-**Member 1 :**  
+**Member 1 :** Shivam Modi
 - Victoria Email: modishiv@mywuv.ac.nz
 -  GitHub Username: shivmodi
 -  Discord Username: Dave Microwave#8239
@@ -55,7 +55,7 @@ Backup roles: a role someone can carry out if another member is currently unavai
         <th>Backup role</th>
     </tr>
     <tr>
-    	<td>Shiv Modi</td>
+    	<td>Shivam Modi</td>
         <td></td>
         <td></td>
         <td></td>
