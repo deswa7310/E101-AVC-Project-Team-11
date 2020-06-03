@@ -90,7 +90,7 @@ Backup roles: a role someone can carry out if another member is currently unavai
         <td>Project plan with dated milestones (1.5%)</td>
     </tr>
     <tr>
-    	<td>June 12 (1.5%)</td>
+    	<td>June 12</td>
         <td>Team Log - Weekly discussion of progress (1.5%)</td>
     </tr>
     <tr>
