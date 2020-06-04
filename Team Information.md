@@ -84,30 +84,38 @@ Backup roles: a role someone can carry out if another member is currently unavai
 	<tr>
     	<th>Date</th>
         <th>Event</th>
+	<th>Tasks</th>
     <tr/>
     <tr>
     	<td>June 4</td>
         <td>Project plan with dated milestones (1.5%)</td>
+	<td>Finish plan, ensure we all can run programs</td>
     </tr>
     <tr>
     	<td>June 12</td>
         <td>Team Log - Weekly discussion of progress (1.5%)</td>
+	<td>Finish core, start on completion</td>
     </tr>
     <tr>
     	<td>June 19</td>
         <td>Team Log - Weekly discussion of progress (1.5%)</td>
+	<td>Finish completion, possibly challenge (if time allows)</td>
     </tr>
     <tr>
     	<td>June 19</td>
         <td>AVC Code submission</td>
+	<td>Run final tests, submit code</td>
     </tr>
     <tr>
     	<td>June 22-23</td>
         <td>Lab A - AVC robot testing</td>
+	<td>Pray our code works</td>
     </tr>
     <tr>
     	<td>June 24</td>
         <td>AVC Reports due</td>
+	<td>Finish reports</td>
     </tr>
 </table>
 
+For more information on milestones, please check the milestone page on our wiki.
