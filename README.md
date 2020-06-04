@@ -23,4 +23,4 @@ Windows
 - Instead of compiling the program select make under the build command in Geany
 
 ## Common Installation Issues:
-Issue: Makefile does not make Possible fixes: Makefile may be seprated by multiple spaces instead of a tab when lines start with g++ Makefile may not be getting SFML files from right place. To get correct file location click on the SFML file in file expoler and where it says "This PC" right click on it and select "Copy address as text". Paste it where it says DIR and add another back slash so its in the format of "C:\SFML\SFML-2.5.1"
+Issue: Makefile does not make Possible fixes: Makefile may be seprated by multiple spaces instead of a tab when lines start with g++ Makefile may not be getting SFML files from right place. To get correct file location click on the SFML file in file expoler and where it says "This PC" right click on it and select "Copy address as text". Paste it where it says DIR and add another back slash so its in the format of "C:\\SFML\SFML-2.5.1"
