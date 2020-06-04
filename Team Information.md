@@ -118,4 +118,5 @@ Backup roles: a role someone can carry out if another member is currently unavai
     </tr>
 </table>
 
-For more information on milestones, please check the milestone page on our wiki.
+For more information on milestones, please check the milestone page on our wiki:
+https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Milestones-and-discussions
