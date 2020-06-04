@@ -78,7 +78,7 @@ Backup roles: a role someone can carry out if another member is currently unavai
         </tr>
 </table>
 
-## Important Dates
+## Important Dates:
 
 <table>
 	<tr>
