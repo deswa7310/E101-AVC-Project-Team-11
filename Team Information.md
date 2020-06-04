@@ -54,25 +54,25 @@ Backup roles: a role someone can carry out if another member is currently unavai
     </tr>
     <tr>
     	<td>Shivam Modi</td>
-        <td></td>
+        <td>Software Architect</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
     	<td>Jayen Gulab</td>
-        <td></td>
+        <td>Software Architect</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
     	<td>John Flynn</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Project Manager</td>
+        <td>Software Architect, Writing Code</td>
+        <td>System Administrator</td>
     </tr>
     <tr>
     	<td>Tristan Basinang</td>
-        <td></td>
+        <td>System Administrator</td>
         <td></td>
         <td></td>
         </tr>
