@@ -3,7 +3,8 @@ Team 11's AVC Project Repository for ENGR101.
 For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/blob/master/Team%20Information.md
 
 ## Notes for members:
-- Feel free to write in the Milestones and discussions wiki page - it's there to make suggestions.
+- Feel free to write in the Milestones wiki page - it's there to set goals.
+- Discuss with other members during the week by writing in the Weekly Discussions Doc.md. At the end of every week, it will be wiped clean and uploaded to the archive
 - View and create new milestones by going the milestones tab in the issues and pull request tabs.
 - When adding new issues, please detail thoroughly and add labels. After adding it to the project, wait a moment for it to be sorted.
 - Always add description comments when making a new commit.
