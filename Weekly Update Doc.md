@@ -6,7 +6,7 @@ We are mostly on track according to our plan which we have finalised at the end 
 We have :
 - Succesfully installed SMFL on all our computers (devices used)
 - Everyone has access to the Github Repository
-- (add some progress stuff)
+- Working on code for Core 
 - (add some progress stuff)
 
 ### Personal Messages
