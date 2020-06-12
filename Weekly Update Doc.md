@@ -4,8 +4,9 @@
 
 We are mostly on track according to our plan which we have finalised at the end of last week. 
 We have :
+- Made sure everyone can communicate to each other by a discord group chat 
 - Succesfully installed SMFL on all our computers (devices used)
-- Everyone has access to the Github Repository
+- Everyone has access and contributed to the Github Repository
 - Working on code for Core 
 - (add some progress stuff)
 
@@ -23,3 +24,8 @@ John:
  - In case anyone didn't catch it in the lecture, the way to change the maze is by editing the first line of the "config.txt" file in the AVC_server folder. Change the core in "mazeFile,core.txt" to completion or challenge.
  - I've got my own form of the core working and almost finished with completion (just tweaking the logic a bit). It's similar to Jayen's but some parts are different. I'm thinking of implementing my additions bit by bit to give everyone a chance to decide whether my changes are necessary or not.
  - Reminder that we need some kind of prompt for the user to pick which code the robot should use (core, completion, or challenge). Also the user will have to manually pick which maze to use by editing the config.txt file in AVC_server, so if that's not in the instructions already we should add it.
+
+Shivam: 
+- Similar to John, with catching up with all the assignments/lectures and keeping to date, a little setback on my behalf as recently a lot of my files were corrupted/deleted including my core code. I have spent quite a bit of time trying to fix my pc issue, but hopefully it shouldnt set us back too far as I'll find another way to help and contribute.  
+- As Jayens code is almost finished i'll check it out and help optimise the code to see if we can make it better or not.
+
