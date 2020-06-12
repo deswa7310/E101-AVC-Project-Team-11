@@ -32,7 +32,7 @@ Shivam:
 
 Jayen:
 - This week I have working on my assignments and finding time to work on the robot.cpp program whenever I have time. 
-- Wrote down instructions on how to get SFMl working on windows for Geany.
+- Wrote down instructions on how to get SFML working on windows for Geany.
 - Wrote down common issues which may arise when trying to get SFML to work on windows (These are problem that I ran into and other people I know ran into).
 - Began work on core code, Made it so it gets pixels from the camera and calculates when the image is white and when it is not white with 1s and 0s. Currently the calculation for error is not working as intended so I will be working on fixing that and debugging the code when I can so that robot knows when to turn and keep a steady speed.
 - I have also made some progress in my report for AVC and have been keeping a log of what I have been doing.
