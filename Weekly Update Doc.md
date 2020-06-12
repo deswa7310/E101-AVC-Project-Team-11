@@ -18,3 +18,8 @@ than every person having different code that needs to be considered separately
 - Please add the appropriate labels to any pull requests you do. Adding labels helps sort out and if you assign people, it will notify them
 - Also please use this page for discussions
 
+John:
+ - Sorry for the huge gap of inactivity guys, just had to catch up with all my assignments and lectures and had a lot going on irl. But I'm back and ready to crush this project. Once Jayen has the base code up we should all check over it to see if we can optimise it in any way. 
+ - In case anyone didn't catch it in the lecture, the way to change the maze is by editing the first line of the "config.txt" file in the AVC_server folder. Change the core in "mazeFile,core.txt" to completion or challenge.
+ - I've got my own form of the core working and almost finished with completion (just tweaking the logic a bit). It's similar to Jayen's but some parts are different. I'm thinking of implementing my additions bit by bit to give everyone a chance to decide whether my changes are necessary or not.
+ - Reminder that we need some kind of prompt for the user to pick which code the robot should use (core, completion, or challenge). Also the user will have to manually pick which maze to use by editing the config.txt file in AVC_server, so if that's not in the instructions already we should add it.
