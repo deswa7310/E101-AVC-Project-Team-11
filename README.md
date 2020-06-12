@@ -12,17 +12,25 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/blob/ma
 - If you don't want to bother with Markdown (.md) Editors, send the SysAdmin (@Kaolinnite) the changes you want uploaded.
 - **If you make a decent sized change (e.g. severals function long), please upload it whenever you can. Incremental changes are better than massive changes because we can all review it easier** 
  
-## Installation Instructions:
-Windows
+## Installation Instructions: Windows only and using Geany
+Downloading files
+- Download the SFML, AVC_server, and robot zip files
+ - **Note:** Install the SFML library that is the same version as your compiler e.g. SFML-64-bit with Mingw-64 and SFML-32-bit with Mingw-32
+- Extract the SFML file into a folder, preferably C:\. Extract both the server and robot into another folder **Important:** Don't extract zip files into new folders. This will interfere with how everything functions
 
-- Download the SFML Zip file and AVC_WIN10 Zip file from the repository
-- Unzip the SFML file into a folder preferably C:\SFML
-- Customize the Geany compiler by going to Build and then selecting Set Build Commands
-- Where it says "make" enter mingw32-make
-- Copy all dll files from the SFML download folder and into the same folder as your .cpp files
-- Inside AVC_ROBOT open makefile, robot.cpp and robot.hpp in Geany
-- Inside AVC_SERVER open makefile and server.cpp in Geany
-- Instead of compiling the program select make under the build command in Geany
 
-## Common Installation Issues:
-Issue: Makefile does not make Possible fixes: Makefile may be seprated by multiple spaces instead of a tab when lines start with g++ Makefile may not be getting SFML files from right place. To get correct file location click on the SFML file in file expoler and where it says "This PC" right click on it and select "Copy address as text". Paste it where it says DIR and add another back slash so its in the format of "C:\\SFML\SFML-2.5.1"
+Setting up Geany
+- Open Geany and by going to Build and then selecting Set Build Commands. Where it says "make" enter mingw32-make or mingw64-make, depending on which version of MinGW you are using. 
+- **IF you put the SFML library somewhere else or you renamed the .cpp files:**
+ - Open the makefiles in each folder in Geany or any text editor. Where C:\\SFML is, replace it with the file path of your own SFML library
+ - If the name of any of your .cpp files are different, change the robot/server3 names used in the makefile to your new name (e.g. changing robot.o to robot2.o)
+- Open robot.cpp and server3.cpp in Geany in two different windows. Instead of compiling the program select make under the build command in Geany to create new executables 
+- Execute server3 first then robot to run the program
+
+## Trouble Shooting for Issues:
+- SFML library works best when installed in C:\\. Check to see that SFML folder you extracted is A: the correct one for your complier version, B: the file path of the SFML folder is 
+- Sometimes the preinstalled libraries sometimes fail. Copy all dll files from the SFML download folder and into the same folder as your .cpp files
+- If using the makefile fails for no discernable reason, delete the robot.exe and robot.o and then run make
+- Makefile may be seprated by multiple spaces instead of a tab when lines start with g++ - replaces them with a tab
+- Don't worry about depreciated method messages - the programs will still work
+
