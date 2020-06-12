@@ -22,12 +22,12 @@ int main(){
       for (int i = 0; i < 150; i++){// loops through all pixels rows in camera
 		  int pix = get_pixel(cameraView, 50, i, 3);// gets all pixels in view of the camera
 		  if (pix > 250){ // if pixel is white
-			  total_index += 1; // counts number of indices
-			  white_pix_count++;
+			  total_index += 1; // counts total value of indices
+			  white_pix_count++; // counts number of indices containing white pixels
 		  }
 	  }
-	  average_index = total_index / white_pix_count; // finds central index
-	  double error = average_index - image_centre; // finds distance from central index to centre of image
+	  average_index = total_index / white_pix_count; // finds central index (centre of white line)
+	  double error = average_index - image_centre; // finds distance from central white pixel to centre of image
 	  
 	  double dv = 0.5*error; // depending on error value turns wheel with a direction and speed centering white line in camera
 	  vLeft = v_go + dv; // calculation to see how fast wheels should move 
