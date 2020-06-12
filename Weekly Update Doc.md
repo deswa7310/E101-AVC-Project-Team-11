@@ -15,3 +15,4 @@ Tristan:
 - Once the week is over, I'm going to clean the slate and upload these onto the wiki for archival purposes
 - For every change longer than two lines from now one. it helps show progress and is easier to combine <br>
 than every person having different code that needs to be considered separately
+- Please add the appropriate labels to any pull requests you do. Adding labels helps sort out and if you assign people, it will notify them
