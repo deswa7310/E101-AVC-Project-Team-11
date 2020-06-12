@@ -29,3 +29,10 @@ Shivam:
 - Similar to John, with catching up with all the assignments/lectures and keeping to date, a little setback on my behalf as recently a lot of my files were corrupted/deleted including my core code. I have spent quite a bit of time trying to fix my pc issue, but hopefully it shouldnt set us back too far as I'll find another way to help and contribute.  
 - As Jayens code is almost finished i'll check it out and help optimise the code to see if we can make it better or not.
 - I also like report writing and have made some progress on the individual report so if anyone needs help on what to write you can let me know, or I can send in a pdf in the github repo of what I have OR i can give out ideas etc, just anyway to help out. (im not entirely sure if we are allowed since its supposedly individual work so i'll double check before i send in anything).
+
+Jayen:
+- This week I have working on my assignments and finding time to work on the robot.cpp program whenever I have time. 
+- Wrote down instructions on how to get SFMl working on windows for Geany.
+- Wrote down common issues which may arise when trying to get SFML to work on windows (These are problem that I ran into and other people I know ran into).
+- Began work on core code, Made it so it gets pixels from the camera and calculates when the image is white and when it is not white with 1s and 0s. Currently the calculation for error is not working as intended so I will be working on fixing that and debugging the code when I can so that robot knows when to turn and keep a steady speed.
+- I have also made some progress in my report for AVC and have been keeping a log of what I have been doing.
