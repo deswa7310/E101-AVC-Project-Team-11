@@ -49,3 +49,4 @@ Tristan:
 - Core is now complete! Now onto completion. I have some ideas on the logic, but don't feel like you need to consult me. I'll look into user input or even automatic detection, but for now, I think three files is a good idea. 
 - I'll also work on optmizing core for later. I don't know how much I can cut it down, but hopefully I can remove around 30 lines or so. 
 - Another reminder - **Please add labels** (I just think they look neat lol)
+- Completion has now been completed - wow that was fast. Anyway, milestones have now been updated to match our current status, everyone please move into code optimzations or challenge. If you do find a method better than the one we currently have, submit a pull request anyway - you never know if it massively improves work flow or not
