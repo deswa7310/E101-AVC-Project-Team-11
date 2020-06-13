@@ -8,7 +8,7 @@ We have :
 - Succesfully installed SMFL on all our computers (devices used)
 - Everyone has access and contributed to the Github Repository
 - Working on code for Core 
-- (add some progress stuff)
+
 
 ### Personal Messages
 
