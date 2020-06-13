@@ -28,7 +28,7 @@ John:
 Shivam: 
 - Similar to John, with catching up with all the assignments/lectures and keeping to date, a little setback on my behalf as recently a lot of my files were corrupted/deleted including my core code. I have spent quite a bit of time trying to fix my pc issue, but hopefully it shouldnt set us back too far as I'll find another way to help and contribute.  
 - As Jayens code is almost finished i'll check it out and help optimise the code to see if we can make it better or not.
-- I also like report writing and have made some progress on the individual report so if anyone needs help on what to write you can let me know, or I can send in a pdf in the github repo of what I have OR i can give out ideas etc, just anyway to help out. (im not entirely sure if we are allowed since its supposedly individual work so i'll double check before i send in anything).
+- I also like report writing and have made progress on the individual report so if anyone needs help on what to write you can let me know, or I can send in a pdf in the github repo of what I have OR i can give out ideas etc, just anyway to help out. (im not entirely sure if we are allowed since its supposedly individual work so i'll double check before i send in anything).
 
 Jayen:
 - This week I have working on my assignments and finding time to work on the robot.cpp program whenever I have time. 
