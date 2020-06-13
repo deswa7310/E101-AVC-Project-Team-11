@@ -43,3 +43,9 @@ John:
 - Secondly, I think the priority for now is just getting the code uploaded and working (no matter the format). We can sort out how to merge all 3 together closer to submission time, but for now I'm going to create a new .cpp file with a design for the completion code.
 
 SIDE NOTE: Preferably we want everyone's input whenever a pull request is made. However, if a pull request is left pending till the following day without input from anyone, I will personally decide whether to merge it or not. In 99% of cases I will merge it because of our tight time frame and I doubt anyone will make an edit so bad it isn't worth adding. - John
+
+Tristan:
+- As is the case with everyone it seems, I'll be pretty busy this weekend, so I don't know how much I'll contribute - though I feel like this is a given now, with the increased assignments we have. No matter, we'll soldier on regardless; nobody has to apologize, we're all on the same boat after all.
+- Core is now complete! Now onto completion. I have some ideas on the logic, but don't feel like you need to consult me. I'll look into user input or even automatic detection, but for now, I think three files is a good idea. 
+- I'll also work on optmizing core for later. I don't know how much I can cut it down, but hopefully I can remove around 30 lines or so. 
+- Another reminder - **Please add labels** (I just think they look neat lol)
