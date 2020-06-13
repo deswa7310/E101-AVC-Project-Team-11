@@ -37,13 +37,13 @@ int main(){
 
 // function returns true if there is a white pixel on that particular side
 bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right
-	int max = 100;
+	int max = 100; // if checking left or right, goes down rows from 0 to 99
 	int row = 0;
 	int col = 0;
-	if (side == 2){max = 150;} // if side is even (top or bottom)
+	if (side == 2){max = 150;} // if checking top, goes right along columns from 0 to 149
 	for (int i = 0; i < max; i++){
-		if (side == 2){col = i;} else {row = i;}
-		if (side == 3){col = 149;}
+		if (side == 2){col = i;} else {row = i;} // goes along cols if top, else goes down rows
+		if (side == 3){col = 149;} // goes down last column if checking right side
 		int pix = get_pixel(cameraView, row, col, 3);
 		if (pix > 250) {return true;}
 	}
@@ -54,7 +54,7 @@ bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right
 bool canSeeFinish(){
 	for (int i = 0; i < 150; i++){
 		int pix = get_pixel(cameraView, 0, i, 3);
-		if (pix < 5) {return true;}
+		if (pix < 5) {return true;} // if one black pixel is detected, return true
 	}
 	return false;
 }
