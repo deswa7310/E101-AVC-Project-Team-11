@@ -1,14 +1,11 @@
 #include "robot.hpp" 
  
-int main(){ 
-    cameraView.width = 150;     
-    cameraView.height = 100; 
-    cameraView.data = new char[cameraView.width * cameraView.height*3]; 
-    cameraView.n_bytes = cameraView.width * cameraView.height*3; 
-     
-    if (connectNetwork()!=0){ 
-      return -1; 
-   } 
+int main(){
+	
+    if (initClientRobot() !=0){
+	std::cout<<" Error initializing robot"<<std::endl;
+    }
+	
     double v_go = 30.0;
     double vRight, vLeft;
     int image_width = 150;
@@ -19,10 +16,10 @@ int main(){
       int total_index = 0, white_pix_count = 0;
       double average_index = 0.0; // the mean index
 	    
-      for (int i = 0; i < 150; i++){// loops through all pixels rows in camera
+      for (int i = 0; i < image_width; i++){// loops through all pixels rows in camera
 		  int pix = get_pixel(cameraView, 50, i, 3);// gets all pixels in view of the camera
 		  if (pix > 250){ // if pixel is white
-			  total_index += 1; // counts total value of indices
+			  total_index += i; // counts total value of indices
 			  white_pix_count++; // counts number of indices containing white pixels
 		  }
 	  }
@@ -34,7 +31,7 @@ int main(){
 	  vRight = v_go - dv;
       setMotors(vLeft,vRight); //set motor speed 
       std::cout<<" vLeft="<<vLeft<<" vRight="<<vRight<<std::endl;
-      sleep(10);   
+      usleep(10000);   
       
   } //while 
  
