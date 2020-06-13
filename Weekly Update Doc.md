@@ -40,4 +40,4 @@ Jayen:
 John:
 - I'm unsure how the whole system is gonna work with the 3 programs (core, completion, challenge). 
 - Firstly, we need a way for the user to select which one they'd like to use. It says that the markers will change the map manually in the config.txt file, but we are only allowed to submit one program (along with custom .hpp files) so it obviously must contain all 3 codes. I could play around with finding a way to get user input, but yeah if anyone has any ideas that'd be good.
-- Secondly, I think the priority for now is just getting the code uploaded in working (no matter the format). We can sort out how to merge all 3 together closer to submission time, but for now I'm going to create a new .cpp file with a design for the completion code.
+- Secondly, I think the priority for now is just getting the code uploaded and working (no matter the format). We can sort out how to merge all 3 together closer to submission time, but for now I'm going to create a new .cpp file with a design for the completion code.
