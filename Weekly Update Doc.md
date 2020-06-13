@@ -36,3 +36,7 @@ Jayen:
 - Wrote down common issues which may arise when trying to get SFML to work on windows (These are problem that I ran into and other people I know ran into).
 - Began work on core code, Made it so it gets pixels from the camera and calculates when the image is white and when it is not white with 1s and 0s. Currently the calculation for error is not working as intended so I will be working on fixing that and debugging the code when I can so that robot knows when to turn and keep a steady speed.
 - I have also made some progress in my report for AVC and have been keeping a log of what I have been doing.
+
+John:
+- I'm unsure how the whole system is gonna work with the 3 programs (core, completion, challenge). 
+- Firstly, we need a way for the user to select which one they'd like to use. It says that the markers will change the map manually in the config.txt file, but we are only allowed to submit one program (along with custom .hpp files) so it obviously must contain all 3 codes. I could play around with finding a way to get user input, but yeah if anyone has any ideas that'd be good.
