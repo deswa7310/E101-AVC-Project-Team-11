@@ -9,7 +9,7 @@ int main(){
     if (connectNetwork()!=0){ 
       return -1; 
    } 
-    double vGo = 30.0;
+    double v_go = 30.0;
     double vRight, vLeft;
     int image_width = 150;
     double image_centre = (image_width-1)/2.0; // centre of width
@@ -34,7 +34,7 @@ int main(){
 	  vRight = v_go - dv;
       setMotors(vLeft,vRight); //set motor speed 
       std::cout<<" vLeft="<<vLeft<<" vRight="<<vRight<<std::endl;
-      usleep(10000);   
+      sleep(10);   
       
   } //while 
  
