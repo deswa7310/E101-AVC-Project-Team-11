@@ -50,7 +50,7 @@ bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right
 	return false;
 }
 
-// detects black pixels
+// detects black pixels on top row of cameraView
 bool canSeeFinish(){
 	for (int i = 0; i < 150; i++){
 		int pix = get_pixel(cameraView, 0, i, 3);
@@ -59,7 +59,7 @@ bool canSeeFinish(){
 	return false;
 }
 
-// calculates error
+// calculates error if white line is in front
 double error(){
 	int total_index = 0, white_pix_count = 0; // reset for next frame
 	double average_index = 0.0;
