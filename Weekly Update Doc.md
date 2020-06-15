@@ -1,54 +1,12 @@
-# WEEKLY UPDATE #1
+# WEEKLY UPDATE #2
 
-#### Week 10 starting June 8th
+#### Week 11 starting June 15th
+Continuing with our plan, we have made progress with the AVC:
 
-We are mostly on track according to our plan which we have finalised at the end of last week. 
-We have :
-- Made sure everyone can communicate to each other by a discord group chat 
-- Succesfully installed SMFL on all our computers (devices used)
-- Everyone has access and contributed to the Github Repository
-- Working on code for Core 
-- Working on code for completion 
+- Finished working on the core code
+- Finished working on the completion code
 
+#### Personal Messages
 
-
-### Personal Messages
-
-Tristan:
-- Once the week is over, I'm going to clean the slate and upload these onto the wiki for archival purposes
-- For every change longer than two lines from now one. it helps show progress and is easier to combine <br>
-than every person having different code that needs to be considered separately
-- Please add the appropriate labels to any pull requests you do. Adding labels helps sort out and if you assign people, it will notify them
-- Also please use this page for discussions
-
-John:
- - Sorry for the huge gap of inactivity guys, just had to catch up with all my assignments and lectures and had a lot going on irl. But I'm back and ready to crush this project. Once Jayen has the base code up we should all check over it to see if we can optimise it in any way. 
- - In case anyone didn't catch it in the lecture, the way to change the maze is by editing the first line of the "config.txt" file in the AVC_server folder. Change the core in "mazeFile,core.txt" to completion or challenge.
- - I've got my own form of the core working and almost finished with completion (just tweaking the logic a bit). It's similar to Jayen's but some parts are different. I'm thinking of implementing my additions bit by bit to give everyone a chance to decide whether my changes are necessary or not.
- - Reminder that we need some kind of prompt for the user to pick which code the robot should use (core, completion, or challenge). Also the user will have to manually pick which maze to use by editing the config.txt file in AVC_server, so if that's not in the instructions already we should add it.
-
-Shivam: 
-- Similar to John, with catching up with all the assignments/lectures and keeping to date, a little setback on my behalf as recently a lot of my files were corrupted/deleted including my core code. I have spent quite a bit of time trying to fix my pc issue, but hopefully it shouldnt set us back too far as I'll find another way to help and contribute.  
-- As Jayens and Johns code is almost finished i'll check it out and help optimise the code to see if we can make it better or not.
-- I also like report writing and have made progress on the individual report so if anyone needs help on what to write you can let me know, or I can send in a pdf in the github repo of what I have OR i can give out ideas etc, just anyway to help out. (im not entirely sure if we are allowed since its supposedly individual work so i'll double check before i send in anything).
-
-Jayen:
-- This week I have working on my assignments and finding time to work on the robot.cpp program whenever I have time. 
-- Wrote down instructions on how to get SFML working on windows for Geany.
-- Wrote down common issues which may arise when trying to get SFML to work on windows (These are problem that I ran into and other people I know ran into).
-- Began work on core code, Made it so it gets pixels from the camera and calculates when the image is white and when it is not white with 1s and 0s. Currently the calculation for error is not working as intended so I will be working on fixing that and debugging the code when I can so that robot knows when to turn and keep a steady speed.
-- I have also made some progress in my report for AVC and have been keeping a log of what I have been doing.
-
-John:
-- I'm unsure how the whole system is gonna work with the 3 programs (core, completion, challenge). 
-- Firstly, we need a way for the user to select which one they'd like to use. It says that the markers will change the map manually in the config.txt file, but we are only allowed to submit one program (along with custom .hpp files) so it obviously must contain all 3 codes. I could play around with finding a way to get user input, but yeah if anyone has any ideas that'd be good.
-- Secondly, I think the priority for now is just getting the code uploaded and working (no matter the format). We can sort out how to merge all 3 together closer to submission time, but for now I'm going to create a new .cpp file with a design for the completion code.
-
-SIDE NOTE: Preferably we want everyone's input whenever a pull request is made. However, if a pull request is left pending till the following day without input from anyone, I will personally decide whether to merge it or not. In 99% of cases I will merge it because of our tight time frame and I doubt anyone will make an edit so bad it isn't worth adding. - John
-
-Tristan:
-- As is the case with everyone it seems, I'll be pretty busy this weekend, so I don't know how much I'll contribute - though I feel like this is a given now, with the increased assignments we have. No matter, we'll soldier on regardless; nobody has to apologize, we're all on the same boat after all.
-- Core is now complete! Now onto completion. I have some ideas on the logic, but don't feel like you need to consult me. I'll look into user input or even automatic detection, but for now, I think three files is a good idea. 
-- I'll also work on optmizing core for later. I don't know how much I can cut it down, but hopefully I can remove around 30 lines or so. 
-- Another reminder - **Please add labels** (I just think they look neat lol)
-- Completion has now been completed - wow that was fast. Anyway, milestones have now been updated to match our current status, everyone please move into code optimzations or challenge. If you do find a method better than the one we currently have, submit a pull request anyway - you never know if it massively improves work flow or not
+Tristan
+- I haven't fully researched into it, but I'm fairly certain that the code shouldn't need user inputs. The core and completion could be combined without any trouble
