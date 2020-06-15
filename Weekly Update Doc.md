@@ -9,4 +9,4 @@ Continuing with our plan, we have made progress with the AVC:
 #### Personal Messages
 
 Tristan
-- I haven't fully researched into it, but I'm fairly certain that the code shouldn't need user inputs. The core and completion could be combined without any trouble
+- I haven't fully researched into it, but I'm fairly certain that the code shouldn't need user inputs. The core and completion should be able to be merged without much modification to existing code. The challenge can also be added in, since it just detects red.
