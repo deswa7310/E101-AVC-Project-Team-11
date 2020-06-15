@@ -9,7 +9,7 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/blob/ma
 - When adding new issues, please detail thoroughly and add labels. After adding it to the project, wait a moment for it to be sorted.
 - Always add description comments when making a new commit.
 - Make changes by creating a new branch, not by merging it with the master. 
-- If you don't want to bother with Markdown (.md) Editors, send the SysAdmin (@Kaolinnite) the changes you want uploaded.
+- If you don't want to bother with Markdown (.md) Editors, send the SysAdmin (@Kaolinnite) and (@modishiv) the changes you want uploaded.
 - **If you make a decent sized change (e.g. severals function long), please upload it whenever you can. Incremental changes are better than massive changes because we can all review it easier** 
  
 ## Installation Instructions: Windows only and using Geany
