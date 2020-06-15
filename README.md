@@ -16,13 +16,14 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/blob/ma
 Downloading files
 - Download the SFML, AVC_server, and robot zip files
  - **Note:** Install the SFML library that is the same version as your compiler e.g. SFML-64-bit with Mingw-64 and SFML-32-bit with Mingw-32
-- Extract the SFML file into a folder, preferably C:\. Extract both the server and robot into another folder **Important:** Don't extract zip files into new folders. This will interfere with how everything functions
+- Extract the SFML file into a folder, preferably (C:) and then extract both the server and robot into another folder.
+**Important:** Don't extract zip files into new folders. This will interfere with how everything functions
 
 
-Setting up Geany
-- Open Geany and by going to Build and then selecting Set Build Commands. Where it says "make" enter mingw32-make or mingw64-make, depending on which version of MinGW you are using. 
+**Setting up Geany**
+- Open Geany and by going to Build and then selecting Set Build Commands. Where it says "make" enter mingw32-make or mingw64-make, (depending on which version of MinGW you are using).
 - **IF you put the SFML library somewhere else or you renamed the .cpp files:**
- - Open the makefiles in each folder in Geany or any text editor. Where C:\\SFML is, replace it with the file path of your own SFML library
+ - Open the makefiles in each folder in Geany or in any text editor. Where C:\\SFML is, replace it with the file path of your own SFML library
  - If the name of any of your .cpp files are different, change the robot/server3 names used in the makefile to your new name (e.g. changing robot.o to robot2.o)
 - Open robot.cpp and server3.cpp in Geany in two different windows. Instead of compiling the program select make under the build command in Geany to create new executables 
 - Execute server3 first then robot to run the program
