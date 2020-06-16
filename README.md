@@ -16,7 +16,8 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 Downloading files:
 - Download the SFML, AVC_server, and the team 11 robot zip files
  - **Note:** Install the SFML library that is the same version as your compiler e.g. SFML-64-bit with Mingw-64 and SFML-32-bit with Mingw-32.
-- Extract the SFML file into a folder, preferably (C:) and then extract both the server and robot into another folder.
+- Extract the SFML file into a folder, preferably (C:).
+- Extract both the server and robot into another folder.
 **Important:** Don't extract zip files into new folders. This will interfere with how everything functions.
 
 
