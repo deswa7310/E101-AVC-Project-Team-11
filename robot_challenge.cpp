@@ -10,7 +10,7 @@ int main(){
 	bool wallOnSide(int side);
 	bool containsWhite(int side);
 	
-	double vGo = 50.0; // 40.0 works
+	double vGo = 50.0;
     double vLeft, vRight;
     double turn = 168.5; // the velocity for a 90 degree turn (did lots of testing)
     bool turningLeft = false;
@@ -19,13 +19,12 @@ int main(){
     // must keep it on the left side of cameraView when it turns, no matter the direction)
     
     int turningDelay = 7; // number of movements forward before turning left
-    int delayCount = turningDelay; // movements left
+    int delayCount = turningDelay; // movements left before turn
 
     while(1){ /** Make it follow the left wall: */ 
 		
 		takePicture(); // image is 150x100 (widthxheight)
-		vLeft = vGo;
-		vRight = vGo;
+		vLeft = vRight = vGo; // go straight by default
 		
 		bool leftWall = wallOnSide(1);
 		
@@ -63,7 +62,7 @@ int main(){
 
 } // main
 
-// returns true if horizontal red line across middle of cameraView:
+// returns true if horizontal red line across middle of cameraView (wall ahead):
 bool approachingWall(){
 	int redPixCount = 0;
 	for (int i = 0; i < 150; i++){
@@ -75,7 +74,7 @@ bool approachingWall(){
 	return false;
 }
 
-// returns number of red pixels on that side (left is 1, right is 2):
+// returns true if wall on that side (left is 1, right is 2):
 bool wallOnSide(int side){
 	int col;
 	if (side == 1) {col = 0;}
@@ -90,7 +89,7 @@ bool wallOnSide(int side){
 	return redPixCount > 250;
 }
 
-// function returns true if there is a white pixel on that particular side
+// returns true if there is a white pixel on that side
 bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right, 4 is bottom
 	int max = 100;
 	int row = 0;
