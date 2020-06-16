@@ -36,5 +36,5 @@ Downloading files:
 - The text inside each makefile may contain multiple spaces instead of a tab before the lines start with g++ - this should be replaced with a tab.
 - If your makefile cannot find your SFML file open the file explorer open your SFML file and then right click where it says "This PC" and press "copy address as text". Paste this address where you have your old address
 - Don't worry about any depreciated method messages - the programs will still work. 
-- Make that any antivirus software is not stopping the download of important files for SFML to work on windows 
+- Make sure that any antivirus software on your computer is not stopping the download of important files for SFML to work on windows 
 
