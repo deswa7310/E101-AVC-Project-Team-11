@@ -24,3 +24,9 @@ John
 - I think you're right Tristan; it'll take some rearranging and tweaking but there definitely is a way to fit all 3 into one program without needing user input. I'll try experimenting with it later today.
 - Shivam has also brought to my attention that we don't need to submit our code and it will simply be taken from our repository on the day of marking.
 - In terms of our plan, here is a brief analysis from my perspective:
+
+Jayen
+- Since the challenge code has been completed this week i will be testing the code and seeing if i can find different ways to optimise the code to make it possibly more efficient
+- I will also be reading through everything that we have written down to make sure that there are no errors
+- Ive been making sure to show up to the labs in order to be sure we have not missed any relevant information which could be helpful
+- I have also been making sure to kepp up with my weekly logs and writing down how i have contributed to the group
