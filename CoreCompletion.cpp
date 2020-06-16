@@ -37,7 +37,6 @@ int main(){
  
 } // main 
 
-#include "robot.hpp"
 
 int main(){
 	if (initClientRobot() !=0){
