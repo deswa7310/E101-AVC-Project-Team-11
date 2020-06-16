@@ -21,7 +21,7 @@ Downloading files:
 
 
 **Setting up Geany**
-- Open Geany and by going to Build and then selecting Set Build Commands. Where it says "make" enter mingw32-make or mingw64-make, (depending on which version of MinGW you are using).
+- Open Geany, then by choosing *Build* and then selecting *Set Build Commands*. Where it says "make" enter mingw32-make or mingw64-make, (depending on which version of MinGW you are using).
 - **IF you put the SFML library somewhere else or you renamed the .cpp files:**
  - Open the makefiles in each folder in Geany or in any text editor. Where C:\\SFML is, replace it with the file path of your own SFML library.
  - If the name of any of your .cpp files are different, change the robot/server3 names used in the makefile to your new name (e.g. changing robot.o to robot2.o).
@@ -31,7 +31,7 @@ Downloading files:
 ## Trouble Shooting for Issues:
 - It is best to extract the SFML library into C:\\ so you don't have to edit the makefiles. Check to see that the SFML folder you extracted is A: the correct one for your complier version, and B: in the right file path you are using in your makefiles.
 - If the preinstalled dll libraries within AVC_robot and AVC_server fail, there is an easy fix. Copy all .dll files from the SFML folder into the same folder as your .cpp files (the AVC_robot and AVC_server folders) and replace the old ones. You can find all these .dll files inside the "bin" folder in "SFML".
-- If using the makefile fails for no discernable reason, delete the robot.exe and robot.o inside the AVC_robot folder and then run make.
-- The text inside each makefile may contain multiple spaces instead of a tab before lines start with g++ - this should be replaced with a tab.
-- Don't worry about depreciated method messages - the programs will still work.
+- If the makefile fails for no reason, delete the files *robot.exe* and *robot.o* inside the AVC_robot folder and then run make.
+- The text inside each makefile may contain multiple spaces instead of a tab before the lines start with g++ - this should be replaced with a tab.
+- Don't worry about any depreciated method messages - the programs will still work.
 
