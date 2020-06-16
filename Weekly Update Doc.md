@@ -23,7 +23,7 @@ John
 - Okay guys, so we now have all 3 codes functional, but in separate programs.
 - I think you're right Tristan; it'll take some rearranging and tweaking but there definitely is a way to fit all 3 into one program without needing user input. I'll try experimenting with it later today.
 - Shivam has also brought to my attention that we don't need to submit our code and it will simply be taken from our repository on the day of marking.
-# In terms of our plan, here is a brief analysis from my perspective:
+#### In terms of our plan, here is a brief analysis from my perspective:
 - Our plan was made on schedule.
 - GitHub was operational and everyone had the AVC programs working ahead of time.
 - Due to assignments among other hurdles, we made a late start on designing the core code.
