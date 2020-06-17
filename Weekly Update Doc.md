@@ -29,7 +29,7 @@ Jayen
 - I will also be reading through everything that we have written down to make sure that there are no errors
 - Ive been making sure to show up to the labs in order to be sure we have not missed any relevant information which could be helpful
 - I have also been making sure to keep up with my weekly logs and writing down how i have contributed to the group
-- I have been testing the combined code for core, completion and challange and after multiple tests i have found that all programs are working as intended
+- I have been testing the combined code for core, completion and challange and after multiple tests i have found that all programs are working as intended my next step is to find ways to optimise the code 
 
 #### In terms of our plan, here is a brief analysis from my perspective: (John)
 - Our plan was made on schedule.
