@@ -15,10 +15,10 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 ## Installation Instructions: Windows only and using Geany
 **Downloading files:**
 - Download the *AVC_Win10.zip* file and the correct SFML library zip file that matches your compiler version:
-- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32.
+	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32.
 - Extract the SFML zip file into a folder called SFML, preferably directly in (C:) but anywhere works.
 - Extract the AVC_Win10.zip file into another folder.
-**Important:** Make sure the extracted SFML library opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them. Otherwise, the makefile won't be able to locate the files properly and the program will fail. TLDR: Don't bury the SFML file when extracting it.
+**Important:** Make sure the extracted SFML library opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them, like this: ![filepath](Misc/filepath.jpg?raw=true) Otherwise, the makefile won't be able to locate the files properly and the program will fail. TLDR: Don't bury the SFML file when extracting it.
 
 
 **Setting up Geany to use makefiles:**
@@ -33,7 +33,8 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 - To get the file path: open the file explorer, find and open your SFML file and right click where it says "This PC". Click "copy address as text". Finally, replace "C:\\SFML" in the makefiles with this copied address.
 
 **If you renamed the "robot.cpp" or "server3.cpp" files:**
-- If the name of your robot.cpp file is different, open the makefile in AVC_robot using Geany or any text editor. Change all instances of "robot" to the new name of the file. (e.g. if the file is now called *newrobot.cpp*, changing **robot.o** to **newrobot.o**).
+- If the name of your robot.cpp file is different, open the makefile in AVC_robot using Geany or any text editor. Here is what you will see: ![robot makefile](Misc/robot_make.jpg?raw=true)
+- Change all instances of "robot" to the new name of the file. (e.g. if the file is now called *newrobot.cpp*, changing **robot.o** to **newrobot.o**).
 - If the name of your server3.cpp file is different, do the same but with the makefile in AVC_server, and change all instances of "server3" to the new name of the file. (e.g. if the file is now called *newserver.cpp*, changing **server3.o** to **newserver.o**).
 
 
@@ -46,6 +47,6 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 ## Trouble Shooting for Issues:
 - It is best to extract the SFML library into C:\\ so you don't have to edit the makefiles. Check to see that the SFML folder you extracted is A: the correct one for your complier version, and B: in the right file path you are using in your makefiles.
 - If the pre-downloaded dll libraries within AVC_robot and AVC_server fail, there is an easy fix. Copy all .dll files from the SFML folder into the same folder as your .cpp files (the AVC_robot and AVC_server folders) and replace the old ones. You can find all these .dll files inside the "bin" folder in "SFML".
-- If the makefile fails for no reason, delete the files *robot.exe* and *robot.o* inside the AVC_robot folder and then try *Make* again.
+- If the makefile fails for no reason, delete the files *robot.exe*, *robot.o*, and *robot* inside the AVC_robot folder and then try *Make* again.
 - Don't worry about any depreciated method messages - the programs will still work. 
 - Make sure that any antivirus software on your computer is not stopping the download of important files for SFML to work on Windows.
