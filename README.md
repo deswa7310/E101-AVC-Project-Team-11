@@ -13,16 +13,18 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 - **If you make a decent sized change (e.g. severals function long), please upload it whenever you can. Incremental changes are better than massive changes because we can all review it easier** 
  
 ## Installation Instructions: Windows only and using Geany
-**Downloading files:**
+**Downloading / Extracting Files:**
 - Download the *AVC_Win10.zip* file and the correct SFML library zip file that matches your compiler version:
-	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32.
-- Extract the SFML zip file into a folder called SFML, preferably directly in (C:\\\\) but anywhere works.
-- Extract the AVC_Win10.zip file into another folder.
-**Important:** Make sure the extracted SFML library opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them, like this: ![filepath](Misc/filepath.jpg?raw=true "As you can see, the SFML file is open and all the files are stored directly in them") <br> Otherwise, the makefile won't be able to locate the files properly and the program will fail. TLDR: Don't bury the SFML file when extracting it.
+	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32. This can be found by looking for MinGW in your Program Files/Program Files (x86).
+- Extract the *SFML-x-bit.zip* file into a folder preferably directly in (C:\\\\) but anywhere works.
+- Extract the *AVC_Win10.zip* file into another folder.
+- **Important:** 
+- After extracting the SMFL-x-bit.zip file, the extracted folder will be called "SFML-64-bit" or "SFML-32-bit". The actual "SFML" library/folder you want will be inside of this, and is the one that your makefile needs to locate. Copy the "SFML" folder, and paste it in the same location as "SFML-x-bit" then delete the "SFML-x-bit" folder.
+- This makes it possible for the makefile to find the SFML library that opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them, like this: ![filepath](Misc/filepath.jpg?raw=true "As you can see, the SFML file is open and all the files are stored directly in them") <br>
 
 
 **Setting up Geany to use makefiles:**
-- Open Geany and at the top, click *Build* and select *Set Build Commands*. Where it says "make" enter **mingw32-make** or **mingw64-make**, (depending on which version of MinGW you are using). Now by clicking the *Build* tab, then *Make*, Geany will use the makefile within the same folder as that .cpp file to compile and build that program.
+- Open Geany and at the top, click the *Build* tab (between "Project" and "Tools") and select *Set Build Commands*. Where it says "make" enter **mingw32-make** or **mingw64-make**, (depending on which version of MinGW you are using). Now by clicking the *Build* tab, then *Make*, Geany will use the makefile within the same folder as the .cpp file to compile and build that program.
 - The makefiles inside each folder within AVC_Win10 (AVC_robot and AVC_server) are pre-written to locate the SFML library in C:\\\\ and work with the "robot.cpp" and "server3.cpp" files.
 - As a precaution, open each makefile using Geany or a text editor, and make sure there is a tab before each line starting with "g++". If it contains multiple spaces instead, then replace these spaces with a tab.
 
@@ -40,10 +42,19 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 
 
 
-**Compiling/Building and Running the programs using Geany:**
-- Once the makefiles are set up, open robot.cpp and server3.cpp (or your renamed .cpp files) in Geany in two different windows. 
+**Compiling / Building and Running the programs using Geany:**
+- Once the makefiles are set up, open robot.cpp (in AVC_robot folder) and server3.cpp (in AVC_server folder) in Geany in two different windows. (Or whatever names you have given the .cpp files.)
 - Instead of clicking compile and build, just click the *Build* tab and select *Make* for Geany to use the makefiles and compile/build the program. Do this for each program. If you still experience issues, read below.
 - Now execute/run server3.cpp first then robot.cpp to run the program.
+- **Note:** Your PC's security (firewall, antivirus software etc.) might block communications between the robot and server3 program. If this happens, give it permission as an administrator.
+
+
+**To Change the Maze/Map:**
+- Inside the AVC_server folder, there is a text file called *config.txt*. Open it using a text editor.
+- There are 3 different mazes/maps to choose from: core, completion, and challenge.
+- By default, the map will be set to core.
+- To change map, change where it says "core" in the top line to "completion" or "challenge" and save the file.
+- The map will then be different the next time you run the server3.cpp program.
 
 
 ## Trouble Shooting for Issues:
