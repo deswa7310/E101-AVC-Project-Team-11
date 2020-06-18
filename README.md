@@ -23,11 +23,11 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 
 **Setting up Geany to use makefiles:**
 - Open Geany and at the top, click *Build* and select *Set Build Commands*. Where it says "make" enter **mingw32-make** or **mingw64-make**, (depending on which version of MinGW you are using). Now by clicking the *Build* tab, then *Make*, Geany will use the makefile within the same folder as that .cpp file to compile and build that program.
-- The makefiles inside each folder within AVC_Win10 (AVC_robot and AVC_server) are pre-written to locate the SFML library in C:// and work with the "robot.cpp" and "server3.cpp" files.
+- The makefiles inside each folder within AVC_Win10 (AVC_robot and AVC_server) are pre-written to locate the SFML library in C:\\ and work with the "robot.cpp" and "server3.cpp" files.
 - As a precaution, open each makefile using Geany or a text editor, and make sure there is a tab before each line starting with "g++". If it contains multiple spaces instead, then replace these spaces with a tab.
 
 
-**If you put the SFML library somewhere else (not in C://):**
+**If you put the SFML library somewhere else (not in C:\\):**
 - Open the makefiles inside each folder (AVC_robot and AVC_server) using Geany or any text editor. 
 - Where C:\\SFML is, replace it with the file path to your own SFML library.
 - To get the file path: open the file explorer, find and open your SFML file and right click where it says "This PC". Click "copy address as text". Finally, replace "C:\\SFML" in the makefiles with this copied address.
