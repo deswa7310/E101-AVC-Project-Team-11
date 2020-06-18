@@ -4,43 +4,36 @@
 bool approachingWall();
 bool wallOnSide(int side);
 bool containsWhite(int side);
-bool containsBlack();
+bool detectFlag();
 double error();
 
+static int turningDelay = 7; // number of movements forward before turning left
+static double turn = 168.5; // the velocity for a 90 degree turn (did lots of testing)
 
 int main(){ /** Has 45 semicolons: */
+	
 	if (initClientRobot() !=0){
 		std::cout<<" Error initializing robot"<<std::endl;
 		return -1; // Kills program if server3 is not detected
 	}
 	
 	double vGo = 50.0;
-    double vLeft, vRight;
-    bool finished = false; // true when robot has detected the flag
+	double vLeft, vRight;
 	int startDelay = 5; // goes straight this no. of times to give it time to detect walls or not
-	int finishDelay = 3; // goes straight this no. of times once flag is detected, then ends program
-    
-    /** For challenge: */
-    bool challenge = false; // true if detects red walls (knows it is challenge)
-    double turn = 168.5; // the velocity for a 90 degree turn (did lots of testing)
-    bool turningLeft = false; // true if going to turn left
-    int turningDelay = 7; // number of movements forward before turning left
+	
+	/** For challenge: */
+	bool challenge = false; // true if detects red walls (knows it is challenge)
+	bool turningLeft = false; // true if going to turn left
     int delayCount = turningDelay; // movements left
-
+	
     while(1){
 		takePicture(); // image is 150x100 (widthxheight)
 		vLeft = vRight = vGo; // go straight by default
 		
 		/** If finish is detected: drive straight into it, stop, end program. */
-		if (containsBlack()){
-			finished = true;
-		}
-		if (finished){
-			finishDelay--;
-		}
-		if (finishDelay == 0){
+		if (detectFlag()){
 			setMotors(0, 0);
-			std::cout<<" Finished. :)"<<std::endl;
+			std::cout<<"Flag reached!"<<std::endl;
 			return 0;
 		}
 
@@ -50,12 +43,9 @@ int main(){ /** Has 45 semicolons: */
 			challenge = true;
 		} // knows it is challenge if it detects a red left wall
 		
-		if (startDelay == 0 && !finished){ // just goes straight if finished or during start delay
-		
+		if (startDelay == 0){ // just goes straight if finished or during start delay
 			if (challenge){ /** If challenge: */
-				
 				if (!containsWhite(4)){ // go straight if white line in view, else:	
-					
 					if (delayCount == 0){ // if delay for left turn is over, turn left:
 						delayCount = turningDelay; // resets delay
 						turningLeft = false;
@@ -84,7 +74,6 @@ int main(){ /** Has 45 semicolons: */
 			} // challenge
 			
 			else { /** If core or completion: */
-				
 				if (containsWhite(1)) { // if white on left side, turn left
 					vLeft = 0.7*vGo; vRight = 1.3*vGo;
 					}
@@ -109,7 +98,7 @@ int main(){ /** Has 45 semicolons: */
 } // main
 
 
-/** Returns true if there is a white pixel on that particular side: */
+/** Checks a side of the image if white pixels are present. Side is chosen using an integer (Core/Completion Method) */
 bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right, 4 is bottom
 	int max = 100; // if left or right (goes down 100 rows)
 	int row = 0;
@@ -120,18 +109,21 @@ bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right, 
 	
 	for (int i = 0; i < max; i++){
 		if (side % 2 == 0){
-			col = i;} 
-			else {
-				row = i;
-			}
+			col = i;
+		} else {
+			row = i;
+		}
+		
 		if (side == 3){
 			col = 149;
-			} // if right
+		} // if right
+		
 		if (side == 4){
 			row = 99;
-			} // if bottom
+		} // if bottom
 		
 		int pix = get_pixel(cameraView, row, col, 3);
+		
 		if (pix > 250) { // if white
 			return true; // returns true if one white pixel is detected
 		}
@@ -140,8 +132,10 @@ bool containsWhite(int side){ // 1 is left side of image, 2 is top, 3 is right, 
 }
 
 
-/** Returns false if black pixels are detected: */ 
-bool containsBlack(){
+/** Detects whether the robot can see the flag in front of it by detecting the number of black pixels near the bottom row 
+*	(General Method)
+*/ 
+bool detectFlag(){
 	int count = 0;
 	for (int i = 0; i < 150; i++){
 		int pix = get_pixel(cameraView, 75, i, 3); // scans pixels along row near bottom
@@ -149,11 +143,13 @@ bool containsBlack(){
 			count++;
 		}
 	}
-	return count > 20; // threshold for error security (true if at least 21 black pixels)
+	return count > 20; // Returns true if number of detected black pixels are over the threshold
 }
 
 
-/** Calculates error: */
+/** Calculates error i.e how far the white line is from the middle of the camera and returns that value 
+* (Core/Completion Method) 
+*/
 double error(){
 	int total_index = 0, white_pix_count = 0; // reset for next frame
 	double average_index = 0.0;
@@ -171,7 +167,7 @@ double error(){
 }
 
 
-/** Returns true if horizontal red line across middle of cameraView (wall ahead): */
+/** Detects whether the robot is approaching a red wall (Challenge method) */
 bool approachingWall(){
 	int redPixCount = 0;
 	
@@ -179,16 +175,16 @@ bool approachingWall(){
 		int red = get_pixel(cameraView, 50, i, 0);
 		int white = get_pixel(cameraView, 50, i, 3);
 		
-		// distinguishes between red and white pixels (both have R of 255):
+		// distinguishes between red and white pixels (both have R of 255)
 		if (red > 250 && white < 250){
 			redPixCount++;
 		}
 	}
-	return redPixCount > 100; // true if at least 101 pixels are red out of 150
+	return redPixCount > 100; // returns true if horizontal red line across middle of cameraView (wall ahead)
 }
 
 
-/** Returns true if wall on that side (left is 1, right is 2): */
+/** Checks the sides of the image if a red wall is present. Uses an integer to choose which side is checked (Challenge method) */
 bool wallOnSide(int side){
 	int col;
 	
@@ -207,5 +203,5 @@ bool wallOnSide(int side){
 			}
 		}
 	}
-	return redPixCount > 250; // if at least 251 red pixels (out of possible 1000), return true
+	return redPixCount > 250; // returns true if wall on that side (left is 1, right is 2)
 }
