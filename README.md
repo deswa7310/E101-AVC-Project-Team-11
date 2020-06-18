@@ -28,13 +28,13 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 
 
 **If you put the SFML library somewhere else (not in C:\\\\):**
-- Open the makefiles inside each folder (AVC_robot and AVC_server) using Geany or any text editor. Here is the makefile for server3: ![server3 makefile](Misc/server3_make.jpg?raw=true "Opened using Geany, but Notepad works fine")
+- Open the makefiles inside each folder (AVC_robot and AVC_server) using Geany or any text editor. Here is the makefile for server3:    ![server3 makefile](Misc/server3_make.jpg?raw=true "Opened using Geany, but Notepad works fine")
 - Where C:\\\\SFML is, replace it with the file path to your own SFML library.
 - To get the file path: open the file explorer, find and open your SFML file and right click where it says "This PC". Click "copy address as text". Finally, replace "C:\\\\SFML" in the makefiles with this copied address.
 
 
 **If you renamed the "robot.cpp" or "server3.cpp" files:**
-- If the name of your robot.cpp file is different, open the makefile in AVC_robot using Geany or any text editor. Here is what you will see: ![robot makefile](Misc/robot_make.jpg?raw=true "Remember to only change the name not the file type e.g. don't remove ".cpp" from robot.cpp")
+- If the name of your robot.cpp file is different, open the makefile in AVC_robot using Geany or any text editor. Here is what you will see: ![robot makefile](Misc/robot_make.jpg?raw=true "Note: Don't change the file type i.e. don't remove '.cpp' from robot.cpp")
 - Change all instances of "robot" to the new name of the file. (e.g. if the file is now called *newrobot.cpp*, changing **robot.o** to **newrobot.o**).
 - If the name of your server3.cpp file is different, do the same but with the makefile in AVC_server, and change all instances of "server3" to the new name of the file. (e.g. if the file is now called *newserver.cpp*, changing **server3.o** to **newserver.o**).
 
