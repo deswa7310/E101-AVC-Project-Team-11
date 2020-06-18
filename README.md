@@ -18,7 +18,7 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32.
 - Extract the SFML zip file into a folder called SFML, preferably directly in (C:) but anywhere works.
 - Extract the AVC_Win10.zip file into another folder.
-**Important:** Make sure the extracted SFML library opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them, like this: ![filepath](Misc/filepath.jpg?raw=true) Otherwise, the makefile won't be able to locate the files properly and the program will fail. TLDR: Don't bury the SFML file when extracting it.
+**Important:** Make sure the extracted SFML library opens directly into the right folders (bin, doc, examples,...) and doesn't contain another folder which has to be opened to access them, like this: ![filepath](Misc/filepath.jpg?raw=true) <br> Otherwise, the makefile won't be able to locate the files properly and the program will fail. TLDR: Don't bury the SFML file when extracting it.
 
 
 **Setting up Geany to use makefiles:**
