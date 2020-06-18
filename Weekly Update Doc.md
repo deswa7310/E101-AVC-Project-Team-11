@@ -44,3 +44,6 @@ Jayen
 - The plan held together for the most part, it was just a bit shakey at the start due to assignments and other work conflicting with our planned schedule.
 - However, we quickly caught up and worked to get ahead of schedule.
 - In my opinion, our greatest challenge was juggling the project with our other assignments. As our assignments were due sooner, we prioritised those and fell behind schedule on the project. When the number of other assignments finally dropped, our rate of progress jumped up and we quickly raced through the code around a week before the deadline. Thanks to contributions from the whole team, we have the base of our project all done and just need to tweak and polish some things before we reach submission time in a few days.
+
+Tristan
+- Final stretch has arrived. All that's needed is to sort out the repository and we're all done
