@@ -11,7 +11,7 @@ static double vGo = 50.0; // default velocity
 static int turningDelay = 7; // number of movements forward before turning left (challenge)
 static double turn = 168.5; // the velocity for a 90 degree turn (challenge)
 
-int main(){ /** Has 36 semicolons: */
+int main(){ /** Has 38 semicolons: */
 	
 	if (initClientRobot() !=0){
 		std::cout<<" Error initializing robot"<<std::endl;
