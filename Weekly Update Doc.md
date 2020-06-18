@@ -32,6 +32,7 @@ Jayen
 - I have also been making sure to keep up with my weekly logs and writing down how i have contributed to the group
 - I have been testing the combined code for core, completion and challange and after multiple tests i have found that all programs are working as intended my next step is to find ways to optimise the code 
 - After reading through evrything on Github i have found no errors in our plan or other important files
+- After thorough testing of the code i can say with confidence that everything is working as intended 
 
 #### In terms of our plan, here is a brief analysis from my perspective: (John)
 - Our plan was made on schedule.
