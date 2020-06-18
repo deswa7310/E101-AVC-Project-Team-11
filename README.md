@@ -15,7 +15,7 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 ## Installation Instructions: Windows only and using Geany
 **Downloading / Extracting Files:**
 - Download the *AVC_Win10.zip* file and the correct SFML library zip file that matches your compiler version:
-	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32. This can be found by looking for MinGW in your Program Files/Program Files (x86).
+	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32. Your version can be found by looking for MinGW in your Program Files/Program Files (x86) and checking the number.
 - Extract the *SFML-x-bit.zip* file into a folder preferably directly in (C:\\\\) but anywhere works.
 - Extract the *AVC_Win10.zip* file into another folder.
 - **Important:** 
