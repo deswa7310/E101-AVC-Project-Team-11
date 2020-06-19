@@ -12,11 +12,36 @@ For our plan visit https://github.com/deswa7310/E101-AVC-Project-Team-11/wiki/Mi
 - If you don't want to bother with Markdown (.md) Editors, send the SysAdmin (@Kaolinnite) and @modishiv) the changes you want uploaded.
 - **If you make a decent sized change (e.g. severals function long), please upload it whenever you can. Incremental changes are better than massive changes because we can all review it easier** 
  
-## Installation Instructions: Windows only and using Geany
+## Installation Instructions: Windows 10 only, using Geany and MinGW
+**If you do not have MinGW:**
+- MinGW is required to compile and run our C++ files using Geany on your Windows computer.
+- To quickly download the MinGW-W64 version (64 bit), use this link:
+- https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe
+- Run the file once downloaded (might need Administrator permission), and click "Next" through the default settings until installation has finished.
+- Now **find the MinGW folder** (should be within Program Files or Program Files (x86), but you can also search for "mingw" using the File Explorer). Open it until you see a folder called "**bin**". Once inside, you should see a program called "**c++.exe**".
+- Copy the address by right-clicking the path bar of File Explorer or where it says "This PC" and click "**Copy address as text**". Windows needs this address to locate the c++.exe file.
+- Now open your Settings (gear icon after clicking start/Windows button) and start typing "environment". Select the option that says something like "**Edit the system environment variables**" or "**Set environmental variables**".
+- If a "**System Properties**" window is opened, click "**Environment Variables...**" near the bottom of the window.
+- In the top window, under where it says "User variables for *name*", there should be a variable called **Path**. Select this and click **Edit**.
+- Now click **New** on the right, and use **Ctrl-V** to paste the copied address into the new line.
+- Close all the windows using **OK** and restart your computer to apply the new Path.
+- You can now use .cpp files in Geany!
+
+
+**If you do not have Geany:**
+- Geany is a useful IDE used to edit and run certain programs.
+- To quickly download the lastest Geany version for Windows, use this link:
+- https://download.geany.org/geany-1.36_setup.exe
+- Run the file once downloaded (might need Administrator permission), and click "Next" through the default settings until installation has finished.
+- Now open Geany by double clicking the shortcut on your desktop, or by finding the Geany folder and clicking the shortcut in there.(Should be within Program Files or Program Files (x86), but you can also search for "geany" using the File Explorer.)
+- You now have Geany!
+
+
 **Downloading / Extracting Files:**
 - Download the *AVC_Win10.zip* file and the correct SFML library zip file that matches your compiler version:
-	- **E.g.** SFML-64-bit with MinGW-w64 and SFML-32-bit with MinGW-w32. Your version can be found by looking for MinGW in your Program Files/Program Files (x86) and checking the number.
-- Extract the *SFML-x-bit.zip* file into a folder preferably directly in (C:\\\\) but anywhere works.
+	- **E.g.** SFML-64-bit with MinGW-W64 and SFML-32-bit with MinGW-W32. Your version can be found by looking for MinGW in your Program Files/Program Files (x86) and checking the number.
+- **OR** instead of downloading the individual zip files, download the entire master branch as a zip file and extract it into a folder.
+- Extract the correct *SFML-x-bit.zip* file into a folder preferably directly in (C:\\\\) but anywhere works.
 - Extract the *AVC_Win10.zip* file into another folder.
 - **Important:** 
 - After extracting the SMFL-x-bit.zip file, the extracted folder will be called "SFML-64-bit" or "SFML-32-bit". The actual "SFML" library/folder you want will be inside of this, and is the one that your makefile needs to locate. Copy the "SFML" folder, and paste it in the same location as "SFML-x-bit" then delete the "SFML-x-bit" folder.
